@@ -1,0 +1,134 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	height: 100%; 
+	max-height: 100%; 
+	font-family:Sans-serif;
+	line-height: 1.5em;
+}
+		
+#header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px; 
+	overflow: hidden; /* Disables scrollbars on the header frame. To enable scrollbars, change "hidden" to "scroll" */
+	background: #4267B2;
+}
+
+a
+{
+ text-decoration:none;
+}
+
+h1
+{
+ color:White;
+}
+
+h1:hover
+{
+ color:White;
+}
+	
+#logo {
+	padding:10px;
+}
+		
+main {
+	position: fixed;
+	top: 100px;
+	left: 0px; /* Set this to the height of the header */ 
+	right: 0;
+	bottom: 0;
+	overflow: auto; 
+	background: White;
+}
+
+.formstyle
+{
+ margin-top:50px;
+ position:relative;
+ top:10px;
+ width:300px;
+ background-color:white;
+ height:36%;
+ font-size:18px;
+}
+
+.adjust
+{
+ margin-left:56px;
+}
+
+.labels
+{
+ float:left;
+}
+
+.floattype
+{
+ float:left;
+}
+
+input[type=text],select
+{
+ border:1px solid #ccc;
+ border-radius:5px;
+ height:30px;
+ font-size:15px;
+ text-indent:5px;
+} 
+
+input[type=password],select
+{
+ border:1px solid #ccc;
+ border-radius:5px;
+ height:30px;
+ font-size:15px;
+ text-indent:5px;
+} 
+
+button
+{
+ font-size:15px;
+ cursor:pointer;
+ border-radius:5px;
+ background-color:grey;
+ height:30px;
+ color:black;
+ float:left;
+}
+
+button:hover
+{
+ background-color:#2D2729;
+ color:white;
+}
+
+footer
+{
+ max-height:15%;
+}
+
+.link
+{
+ font-size:18px;
+ color:black;
+ position:relative;
+ top:20px;
+}
+
+a.link:hover
+{
+ color:white;
+ background-color:black;
+}
+
+.php
+{
+ color:red;
+ margin-top: 30px;
+}
